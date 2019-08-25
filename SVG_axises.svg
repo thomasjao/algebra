@@ -2,7 +2,7 @@
 <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Group of xy-axis -->
-  // x-axis
+  <!-- x-axis -->
   <g id="x-axis">
      <line x1="10" y1="50" x2="90" y2="50" style="stroke:rgb(0,0,0);stroke-width: 0.3px;" />
      <path fill="black" d="M10 50 L15 51 15 49" />
@@ -10,7 +10,7 @@
 	 <text X="4" y="51" style="font-size: 6px" font-family=" Baskerville Italic">x'</text> <!-- x-axis mark -->
 	 <text x="92" y="51" style="font-size: 6px" font-family=" Baskerville Italic">x</text> <!-- optional mark -->
   </g>
-  // y-axis
+  <!-- y-axis -->
   <g id="y-axis">
      <line x1="50" y1="90" x2="50" y2="10" style="stroke:rgb(0,0,0);stroke-width: 0.3px;" />
      <path d="M50 90 L51 85 49 85 Z" />
@@ -18,10 +18,10 @@
 	 <text x="53" y="12" style="font-size: 6px" font-family=" Baskerville Italic">y</text>. <!-- y-axis mark -->
 	 <text x="53" Y="90" STYLE="font-size: 6px" font-family=" Baskerville Italic">$y\prime$</text> <!-- optional mark -->
   </g>
-  // Origin
+  <!-- Origin -->
 	 <text x="52" y="48" style="font-size: 6px" font-family="Didot italic">O</text>
   </defs>
-  // Duplicate x-axis and y-axis to another figure
+  <!-- Duplicate x-axis and y-axis to another figure -->
   <use xlink:href="#x-axis" x="0" y="0" />
   <use xlink:href="#y-axis" x="0" y="0" />
   <use xlink:href="#x-axis" x="0" y="0" transform="translate(100 0)" />
