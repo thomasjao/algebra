@@ -13,7 +13,11 @@ description: 為另一個長遠的計劃作準備
 以下幾篇文章極適合對系統還不盡熟悉的讀者：
 * [Git 版本控制基本指令與操作入門教學](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/)
 * [Git Repository quick setup](https://github.com/thomasjao/Control-System)
-* 還有未知的領域
+* 
 
 
 
+### GitHub 與 GitBook 的同步作用
+在 GitHub 上所作的 commit 會主動 push 到 GitBook，若當下網頁仍開啟，則自動重新整理而顯示修訂過的內容。
+
+而在 GitBook 上所作的修訂，
