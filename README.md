@@ -1,58 +1,12 @@
 ---
-description: Is everybody can use it?
+description: 'Use node.js, mongoDB, express.js to construct a welfare app.'
 ---
 
-# planning a welfare software
+# a welfare software
 
-You can embed image using HTML `img` tag
+A system for most welfare organizations, especially those that cannot afford to develop their own system.  Functions including basic organization web page. As well as beneficial to get everything done.
 
-```markup
-<!-- Coordinate graph draw with SVG commands -->
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Group of xy-axis -->
-    <!-- x-axis -->
-    <g id="x-axis">
-			 <line x1="10" y1="50" x2="90" y2="50" style="stroke:rgb(0,0,0);stroke-width: 0.3px;" />
-			 <path fill="black" d="M10 50 L15 51 15 49" />
-			 <path fill="black" d="M90 50 L85 51 85 49" />
-			 <text X="4" y="51" style="font-size: 6px" font-family=" Baskerville Italic">x'</text> <!-- x-axis mark -->
-			 <text x="92" y="51" style="font-size: 6px" font-family=" Baskerville Italic">x</text> <!-- optional mark -->
-  	</g>
-  	<!-- y-axis -->
-  	<g id="y-axis">
-     	<line x1="50" y1="90" x2="50" y2="10" style="stroke:rgb(0,0,0);stroke-width: 0.3px;" />
-     	<path d="M50 90 L51 85 49 85 Z" />
-     	<path d="M50 10 L51 15 49 15 Z" />
-     	<text x="53" y="12" style="font-size: 6px" font-family=" Baskerville Italic">y</text>. <!-- y-axis mark -->
-     	<text x="53" Y="90" STYLE="font-size: 6px" font-family=" Baskerville Italic">$y\prime$</text> <!-- optional mark -->
-  	</g>
-  	<!-- Origin -->
-     <text x="52" y="48" style="font-size: 6px" font-family="Didot italic">O</text>
-  </defs>
-	
-  <!-- Duplicate x-axis and y-axis to another figure -->
-  <use xlink:href="#x-axis" x="0" y="0" />
-  <use xlink:href="#y-axis" x="0" y="0" />
-  <use xlink:href="#x-axis" x="0" y="0" transform="translate(100 0)" />
-  <use xlink:href="#y-axis" x="0" y="0" transform="translate(100 0)"/>
-
-  <!-- Another method to quickly draw arrows of both axises -->
-  <g id="xy-axis">
-    <path d="M75 25 L80 26 80 24M130 25 L125 24 125 26 M101 5L100 10 102 10M101 50L100 45 102 45"/>. <!-- draw four arrows in single path -->
-    <line x1="75" y1="25" x2="125" y2="25" style="stroke:rgb(0,0,0);stroke-width: 0.3px;" />
-    <line x1="101" y1="5" x2="101" y2="50" style="stroke:rgb(0,0,0);stroke-width: 0.3px;" /> 
-  </g>
-</svg>
-```
-
-&lt;img src="./SVG\_axises.svg" alt="svg\_image" /&gt;
-
-$$
-\nabla\times V = \oint A\cdot dl
-$$
-
-
+System planning:
 
 
 

@@ -1,4 +1,4 @@
 # Table of contents
 
-* [planning a welfare software](README.md)
+* [a welfare software](README.md)
 
