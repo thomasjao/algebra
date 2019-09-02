@@ -46,7 +46,7 @@ You can embed image using HTML `img` tag
 </svg>
 ```
 
-!\[Alt svg\_image\]\(./SVG\_axises.svg\)&lt;img src="./SVG\_axises.svg"&gt;
+&lt;img src="./SVG\_axises.svg" alt="svg\_image" /&gt;
 
 $$
 \nabla\times V = \oint A\cdot dl
