@@ -10,7 +10,9 @@ description: 為另一個長遠的計劃作準備
 
 這本書的內容將會提及構想、思路、設計技巧及修訂歷史。期望以這本書記錄的內容完成此長遠計劃。
 
-
+以下幾篇文章極適合對系統還不盡熟悉的讀者：
+* [Git 版本控制基本指令與操作入門教學](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/)
+* [Git Repository quick setup](https://github.com/thomasjao/Control-System)
 
 
 
